@@ -1,0 +1,4 @@
+Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2
+Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2
+Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1
+Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1
