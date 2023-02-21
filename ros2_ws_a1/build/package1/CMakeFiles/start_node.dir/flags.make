@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include
 
-CXX_FLAGS = -Wall -Wextra -Wpedantic
+CXX_FLAGS = -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic
 

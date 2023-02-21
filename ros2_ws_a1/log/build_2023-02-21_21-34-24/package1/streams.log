@@ -1,0 +1,9 @@
+[0.066s] Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2
+[0.293s] [31mCMake Error at CMakeLists.txt:9 (ffind_package):
+[0.293s]   Unknown CMake command "ffind_package".
+[0.293s] 
+[0.293s] [0m
+[0.293s] -- Configuring incomplete, errors occurred!
+[0.293s] See also "/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1/CMakeFiles/CMakeOutput.log".
+[0.303s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.312s] Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2

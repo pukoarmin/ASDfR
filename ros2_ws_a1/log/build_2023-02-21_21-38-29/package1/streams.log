@@ -1,0 +1,44 @@
+[0.052s] Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2
+[0.131s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.545s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.569s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.647s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.660s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.677s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.933s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.937s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.582s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.720s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.022s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.323s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.403s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.403s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.434s] [0mCMake Error: File /home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/test/test_executables_demo.py.in does not exist.[0m
+[2.435s] [31mCMake Error at CMakeLists.txt:71 (configure_file):
+[2.435s]   configure_file Problem configuring file
+[2.435s] Call Stack (most recent call first):
+[2.435s]   /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1/call_for_each_rmw_implementation.cmake:1 (testing_targets)
+[2.436s]   /opt/ros/humble/share/rmw_implementation_cmake/cmake/call_for_each_rmw_implementation.cmake:64 (include)
+[2.436s]   CMakeLists.txt:92 (call_for_each_rmw_implementation)
+[2.436s] 
+[2.436s] [0m
+[2.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.447s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.448s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include>
+[2.448s] -- Configured cppcheck exclude dirs and/or files: 
+[2.450s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.451s] -- Configured cpplint exclude dirs and/or files: 
+[2.451s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.452s] -- Added test 'lint_cmake' to check CMake code style
+[2.453s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.456s] -- Added test 'uncrustify' to check C / C++ code style
+[2.456s] -- Configured uncrustify additional arguments: 
+[2.458s] -- Added test 'xmllint' to check XML markup files
+[2.462s] -- Configuring incomplete, errors occurred!
+[2.462s] See also "/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1/CMakeFiles/CMakeOutput.log".
+[2.481s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.486s] Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2

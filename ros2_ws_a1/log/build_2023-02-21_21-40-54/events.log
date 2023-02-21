@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.008459] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict()}
+[0.008682] (package1) JobStarted: {'identifier': 'package1'}
+[0.043826] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.044789] (package1) JobProgress: {'identifier': 'package1', 'progress': 'build'}
+[0.046027] (package1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ram-user'), ('USER', 'ram-user'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'nl_NL.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/119/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/ram-user/snap/code/119'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-bd812c80-1.75.1-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/119/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/119/usr/share/code/code'), ('MANAGERPID', '1119'), ('SYSTEMD_EXEC_PID', '1243'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '119'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1894'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'Tb1TBluQFrONpcSy4hRDJEZMN_I_jz-LHqHOo-SXJVGcnIma2h4B'), ('JOURNAL_STREAM', '8:22140'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '441438ab'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1223,unix/ramuser-vm:/tmp/.ICE-unix/1223'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '348d659bd7b249f384d08a19c07d51d7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/119'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9XJO01'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0955216fa2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/ram-user/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/119/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '69'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1:/opt/ros/humble'), ('SNAP_COOKIE', 'Tb1TBluQFrONpcSy4hRDJEZMN_I_jz-LHqHOo-SXJVGcnIma2h4B'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/119/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/ram-user/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/ram-user'), ('VSCODE_CODE_CACHE_PATH', '/home/ram-user/.config/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/119'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1:/opt/ros/humble'), ('VSCODE_PID', '1938')]), 'shell': False}
+[0.087631] (-) TimerEvent: {}
+[0.143551] (package1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.187772] (-) TimerEvent: {}
+[0.288168] (-) TimerEvent: {}
+[0.388647] (-) TimerEvent: {}
+[0.491020] (-) TimerEvent: {}
+[0.595543] (-) TimerEvent: {}
+[0.624661] (package1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.634879] (package1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.695746] (-) TimerEvent: {}
+[0.724283] (package1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.738070] (package1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.758282] (package1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.790200] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.795886] (-) TimerEvent: {}
+[0.826000] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.896048] (-) TimerEvent: {}
+[0.975658] (package1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.978836] (package1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.996256] (-) TimerEvent: {}
+[1.096877] (-) TimerEvent: {}
+[1.197365] (-) TimerEvent: {}
+[1.266241] (package1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.297619] (-) TimerEvent: {}
+[1.398551] (-) TimerEvent: {}
+[1.499417] (-) TimerEvent: {}
+[1.600251] (-) TimerEvent: {}
+[1.701369] (-) TimerEvent: {}
+[1.707347] (package1) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.801528] (-) TimerEvent: {}
+[1.855179] (package1) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.901703] (-) TimerEvent: {}
+[2.002169] (-) TimerEvent: {}
+[2.102640] (-) TimerEvent: {}
+[2.203053] (-) TimerEvent: {}
+[2.239194] (package1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.303246] (-) TimerEvent: {}
+[2.403931] (-) TimerEvent: {}
+[2.504367] (-) TimerEvent: {}
+[2.604871] (-) TimerEvent: {}
+[2.608290] (package1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.660890] (package1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.661261] (package1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.661378] (package1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.705011] (-) TimerEvent: {}
+[2.709877] (package1) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.712440] (package1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.712796] (package1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include>\n'}
+[2.713046] (package1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.719785] (package1) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.720110] (package1) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.720812] (package1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.721733] (package1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.722484] (package1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.724565] (package1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.724815] (package1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.725452] (package1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.728671] (package1) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.805203] (-) TimerEvent: {}
+[2.811045] (package1) StdoutLine: {'line': b'-- Generating done\n'}
+[2.827775] (package1) StdoutLine: {'line': b'-- Build files have been written to: /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1\n'}
+[2.905370] (-) TimerEvent: {}
+[2.967163] (package1) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/package1.dir/src/burger.cpp.o\x1b[0m\n'}
+[2.988646] (package1) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cam2image.dir/rclcpp_components/node_main_cam2image.cpp.o\x1b[0m\n'}
+[3.005535] (-) TimerEvent: {}
+[3.106414] (-) TimerEvent: {}
+[3.208437] (-) TimerEvent: {}
+[3.309390] (-) TimerEvent: {}
+[3.409846] (-) TimerEvent: {}
+[3.510394] (-) TimerEvent: {}
+[3.610898] (-) TimerEvent: {}
+[3.711368] (-) TimerEvent: {}
+[3.817295] (-) TimerEvent: {}
+[3.920068] (-) TimerEvent: {}
+[4.021249] (-) TimerEvent: {}
+[4.121696] (-) TimerEvent: {}
+[4.222218] (-) TimerEvent: {}
+[4.337897] (-) TimerEvent: {}
+[4.444033] (-) TimerEvent: {}
+[4.562723] (-) TimerEvent: {}
+[4.670404] (-) TimerEvent: {}
+[4.771057] (-) TimerEvent: {}
+[4.872268] (-) TimerEvent: {}
+[4.973333] (-) TimerEvent: {}
+[5.083530] (-) TimerEvent: {}
+[5.184108] (-) TimerEvent: {}
+[5.285186] (-) TimerEvent: {}
+[5.385935] (-) TimerEvent: {}
+[5.499570] (-) TimerEvent: {}
+[5.603882] (-) TimerEvent: {}
+[5.707621] (-) TimerEvent: {}
+[5.808320] (-) TimerEvent: {}
+[5.909458] (-) TimerEvent: {}
+[6.015639] (-) TimerEvent: {}
+[6.116389] (-) TimerEvent: {}
+[6.217708] (-) TimerEvent: {}
+[6.329373] (-) TimerEvent: {}
+[6.432006] (-) TimerEvent: {}
+[6.535632] (-) TimerEvent: {}
+[6.639567] (-) TimerEvent: {}
+[6.740368] (-) TimerEvent: {}
+[6.846155] (-) TimerEvent: {}
+[6.946899] (-) TimerEvent: {}
+[7.049398] (-) TimerEvent: {}
+[7.151127] (-) TimerEvent: {}
+[7.255537] (-) TimerEvent: {}
+[7.359631] (-) TimerEvent: {}
+[7.472518] (-) TimerEvent: {}
+[7.589240] (-) TimerEvent: {}
+[7.697671] (-) TimerEvent: {}
+[7.799237] (-) TimerEvent: {}
+[7.907566] (-) TimerEvent: {}
+[8.010305] (-) TimerEvent: {}
+[8.125137] (-) TimerEvent: {}
+[8.230592] (-) TimerEvent: {}
+[8.343953] (-) TimerEvent: {}
+[8.448442] (-) TimerEvent: {}
+[8.552606] (-) TimerEvent: {}
+[8.653088] (-) TimerEvent: {}
+[8.753707] (-) TimerEvent: {}
+[8.855799] (-) TimerEvent: {}
+[8.956401] (-) TimerEvent: {}
+[9.068917] (-) TimerEvent: {}
+[9.170014] (-) TimerEvent: {}
+[9.272772] (-) TimerEvent: {}
+[9.329275] (package1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/package1.dir/src/cam2image.cpp.o\x1b[0m\n'}
+[9.372922] (-) TimerEvent: {}
+[9.488127] (-) TimerEvent: {}
+[9.591130] (-) TimerEvent: {}
+[9.695869] (-) TimerEvent: {}
+[9.796395] (-) TimerEvent: {}
+[9.896862] (-) TimerEvent: {}
+[10.001254] (-) TimerEvent: {}
+[10.101736] (-) TimerEvent: {}
+[10.203664] (-) TimerEvent: {}
+[10.310848] (-) TimerEvent: {}
+[10.360947] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/src/cam2image.cpp:18\x1b[m\x1b[K:\n'}
+[10.361980] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include/package1/cv_mat_sensor_msgs_image_type_adapter.hpp:13:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kimage_tools/visibility_control.h: No such file or directory\n'}
+[10.362400] (package1) StderrLine: {'line': b'   13 | #include \x1b[01;31m\x1b[K"image_tools/visibility_control.h"\x1b[m\x1b[K\n'}
+[10.362638] (package1) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.362919] (package1) StderrLine: {'line': b'compilation terminated.\n'}
+[10.379765] (package1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/package1.dir/build.make:90: CMakeFiles/package1.dir/src/cam2image.cpp.o] Error 1\n'}
+[10.380156] (package1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/package1.dir/all] Error 2\n'}
+[10.380335] (package1) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.411039] (-) TimerEvent: {}
+[10.511546] (-) TimerEvent: {}
+[10.612267] (-) TimerEvent: {}
+[10.712779] (-) TimerEvent: {}
+[10.813359] (-) TimerEvent: {}
+[10.913960] (-) TimerEvent: {}
+[11.015056] (-) TimerEvent: {}
+[11.116132] (-) TimerEvent: {}
+[11.216632] (-) TimerEvent: {}
+[11.317280] (-) TimerEvent: {}
+[11.417694] (-) TimerEvent: {}
+[11.518309] (-) TimerEvent: {}
+[11.618766] (-) TimerEvent: {}
+[11.719239] (-) TimerEvent: {}
+[11.820041] (-) TimerEvent: {}
+[11.920536] (-) TimerEvent: {}
+[12.021144] (-) TimerEvent: {}
+[12.121554] (-) TimerEvent: {}
+[12.221983] (-) TimerEvent: {}
+[12.323574] (-) TimerEvent: {}
+[12.424000] (-) TimerEvent: {}
+[12.524420] (-) TimerEvent: {}
+[12.625117] (-) TimerEvent: {}
+[12.725766] (-) TimerEvent: {}
+[12.826202] (-) TimerEvent: {}
+[12.926691] (-) TimerEvent: {}
+[13.027285] (-) TimerEvent: {}
+[13.127951] (-) TimerEvent: {}
+[13.228993] (-) TimerEvent: {}
+[13.329566] (-) TimerEvent: {}
+[13.430307] (-) TimerEvent: {}
+[13.530901] (-) TimerEvent: {}
+[13.631506] (-) TimerEvent: {}
+[13.732657] (-) TimerEvent: {}
+[13.833110] (-) TimerEvent: {}
+[13.933553] (-) TimerEvent: {}
+[14.033990] (-) TimerEvent: {}
+[14.134411] (-) TimerEvent: {}
+[14.234780] (-) TimerEvent: {}
+[14.335191] (-) TimerEvent: {}
+[14.435985] (-) TimerEvent: {}
+[14.536389] (-) TimerEvent: {}
+[14.646965] (-) TimerEvent: {}
+[14.747948] (-) TimerEvent: {}
+[14.849046] (-) TimerEvent: {}
+[14.950483] (-) TimerEvent: {}
+[15.051799] (-) TimerEvent: {}
+[15.152230] (-) TimerEvent: {}
+[15.255540] (-) TimerEvent: {}
+[15.355950] (-) TimerEvent: {}
+[15.456384] (-) TimerEvent: {}
+[15.556950] (-) TimerEvent: {}
+[15.657389] (-) TimerEvent: {}
+[15.757819] (-) TimerEvent: {}
+[15.859205] (-) TimerEvent: {}
+[15.959744] (-) TimerEvent: {}
+[16.060224] (-) TimerEvent: {}
+[16.160652] (-) TimerEvent: {}
+[16.261067] (-) TimerEvent: {}
+[16.361461] (-) TimerEvent: {}
+[16.461937] (-) TimerEvent: {}
+[16.562359] (-) TimerEvent: {}
+[16.662778] (-) TimerEvent: {}
+[16.763219] (-) TimerEvent: {}
+[16.863832] (-) TimerEvent: {}
+[16.964680] (-) TimerEvent: {}
+[17.065359] (-) TimerEvent: {}
+[17.166171] (-) TimerEvent: {}
+[17.266632] (-) TimerEvent: {}
+[17.367098] (-) TimerEvent: {}
+[17.467542] (-) TimerEvent: {}
+[17.568038] (-) TimerEvent: {}
+[17.668622] (-) TimerEvent: {}
+[17.773632] (-) TimerEvent: {}
+[17.874882] (-) TimerEvent: {}
+[17.975640] (-) TimerEvent: {}
+[18.076373] (-) TimerEvent: {}
+[18.138742] (package1) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable cam2image\x1b[0m\n'}
+[18.177054] (-) TimerEvent: {}
+[18.279257] (-) TimerEvent: {}
+[18.383609] (-) TimerEvent: {}
+[18.485564] (-) TimerEvent: {}
+[18.587949] (-) TimerEvent: {}
+[18.690246] (-) TimerEvent: {}
+[18.704123] (package1) StdoutLine: {'line': b'[ 44%] Built target cam2image\n'}
+[18.713306] (package1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.718515] (package1) CommandEnded: {'returncode': 2}
+[18.790453] (-) TimerEvent: {}
+[18.890932] (-) TimerEvent: {}
+[18.940161] (package1) JobEnded: {'identifier': 'package1', 'rc': 2}
+[18.942528] (-) EventReactorShutdown: {}

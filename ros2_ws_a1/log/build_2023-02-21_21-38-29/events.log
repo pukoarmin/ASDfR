@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict()}
+[0.001042] (package1) JobStarted: {'identifier': 'package1'}
+[0.049433] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.050766] (package1) JobProgress: {'identifier': 'package1', 'progress': 'build'}
+[0.052458] (package1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1', '--', '-j2', '-l2'], 'cwd': '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ram-user'), ('USER', 'ram-user'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'nl_NL.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/119/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ram-user'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.75.1'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/ram-user/snap/code/119'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-bd812c80-1.75.1-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/119/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/119/usr/share/code/code'), ('MANAGERPID', '1119'), ('SYSTEMD_EXEC_PID', '1243'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '119'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1894'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ram-user'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'Tb1TBluQFrONpcSy4hRDJEZMN_I_jz-LHqHOo-SXJVGcnIma2h4B'), ('JOURNAL_STREAM', '8:22140'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '441438ab'), ('USERNAME', 'ram-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ramuser-vm:@/tmp/.ICE-unix/1223,unix/ramuser-vm:/tmp/.ICE-unix/1223'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '348d659bd7b249f384d08a19c07d51d7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/119'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9XJO01'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0955216fa2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/ram-user/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/119/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '69'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1:/opt/ros/humble'), ('SNAP_COOKIE', 'Tb1TBluQFrONpcSy4hRDJEZMN_I_jz-LHqHOo-SXJVGcnIma2h4B'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/119/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/ram-user/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/ram-user'), ('VSCODE_CODE_CACHE_PATH', '/home/ram-user/.config/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/119'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1:/opt/ros/humble'), ('VSCODE_PID', '1938')]), 'shell': False}
+[0.103681] (-) TimerEvent: {}
+[0.131646] (package1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.203823] (-) TimerEvent: {}
+[0.304718] (-) TimerEvent: {}
+[0.405116] (-) TimerEvent: {}
+[0.505570] (-) TimerEvent: {}
+[0.546068] (package1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.570070] (package1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.605753] (-) TimerEvent: {}
+[0.647603] (package1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.660476] (package1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.678123] (package1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.705991] (-) TimerEvent: {}
+[0.726467] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.764906] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.806135] (-) TimerEvent: {}
+[0.906740] (-) TimerEvent: {}
+[0.934141] (package1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.937294] (package1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.007094] (-) TimerEvent: {}
+[1.109040] (-) TimerEvent: {}
+[1.209500] (-) TimerEvent: {}
+[1.229950] (package1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.309708] (-) TimerEvent: {}
+[1.410533] (-) TimerEvent: {}
+[1.511008] (-) TimerEvent: {}
+[1.582847] (package1) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.611151] (-) TimerEvent: {}
+[1.711698] (-) TimerEvent: {}
+[1.721322] (package1) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.811825] (-) TimerEvent: {}
+[1.912675] (-) TimerEvent: {}
+[2.013095] (-) TimerEvent: {}
+[2.022554] (package1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.113547] (-) TimerEvent: {}
+[2.214079] (-) TimerEvent: {}
+[2.315094] (-) TimerEvent: {}
+[2.323166] (package1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.403397] (package1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.403785] (package1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.403924] (package1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.415158] (-) TimerEvent: {}
+[2.434514] (package1) StderrLine: {'line': b'\x1b[0mCMake Error: File /home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/test/test_executables_demo.py.in does not exist.\x1b[0m\n'}
+[2.435213] (package1) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:71 (configure_file):\n'}
+[2.435863] (package1) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[2.436116] (package1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.436309] (package1) StderrLine: {'line': b'  /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1/call_for_each_rmw_implementation.cmake:1 (testing_targets)\n'}
+[2.436566] (package1) StderrLine: {'line': b'  /opt/ros/humble/share/rmw_implementation_cmake/cmake/call_for_each_rmw_implementation.cmake:64 (include)\n'}
+[2.436758] (package1) StderrLine: {'line': b'  CMakeLists.txt:92 (call_for_each_rmw_implementation)\n'}
+[2.436943] (package1) StderrLine: {'line': b'\n'}
+[2.437133] (package1) StderrLine: {'line': b'\x1b[0m\n'}
+[2.445498] (package1) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.448212] (package1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.448682] (package1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include>\n'}
+[2.448831] (package1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.451327] (package1) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.451636] (package1) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.452332] (package1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.453365] (package1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.454156] (package1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.456598] (package1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.457032] (package1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.458853] (package1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.462725] (package1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.462995] (package1) StdoutLine: {'line': b'See also "/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1/CMakeFiles/CMakeOutput.log".\n'}
+[2.481786] (package1) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[2.486578] (package1) CommandEnded: {'returncode': 2}
+[2.515377] (-) TimerEvent: {}
+[2.615859] (-) TimerEvent: {}
+[2.622102] (package1) JobEnded: {'identifier': 'package1', 'rc': 2}
+[2.632763] (-) EventReactorShutdown: {}

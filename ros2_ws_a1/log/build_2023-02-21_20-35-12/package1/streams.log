@@ -1,0 +1,57 @@
+[0.031s] Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1
+[0.328s] -- The C compiler identification is GNU 11.3.0
+[0.574s] -- The CXX compiler identification is GNU 11.3.0
+[0.621s] -- Detecting C compiler ABI info
+[0.928s] -- Detecting C compiler ABI info - done
+[0.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.955s] -- Detecting C compile features
+[0.959s] -- Detecting C compile features - done
+[0.981s] -- Detecting CXX compiler ABI info
+[1.261s] -- Detecting CXX compiler ABI info - done
+[1.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.279s] -- Detecting CXX compile features
+[1.283s] -- Detecting CXX compile features - done
+[1.304s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.831s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.029s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.120s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.394s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include>
+[2.394s] -- Configured cppcheck exclude dirs and/or files: 
+[2.398s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.405s] -- Added test 'lint_cmake' to check CMake code style
+[2.418s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.419s] -- Added test 'uncrustify' to check C / C++ code style
+[2.419s] -- Configured uncrustify additional arguments: 
+[2.419s] -- Added test 'xmllint' to check XML markup files
+[2.423s] -- Configuring done
+[2.446s] -- Generating done
+[2.454s] -- Build files have been written to: /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1
+[2.471s] Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1
+[2.472s] Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2
+[2.668s] [ 50%] [32mBuilding CXX object CMakeFiles/start_node.dir/src/start_node.cpp.o[0m
+[2.805s] [100%] [32m[1mLinking CXX executable start_node[0m
+[3.064s] [100%] Built target start_node
+[3.109s] Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1 -- -j2 -l2
+[3.244s] Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1
+[3.262s] -- Install configuration: "RelWithDebInfo"
+[3.263s] -- Execute custom install script
+[3.265s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/lib/package1/start_node
+[3.294s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1//launch/assignment112.launch.py
+[3.329s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1//launch/assignment113.launch.py
+[3.369s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/ament_index/resource_index/package_run_dependencies/package1
+[3.407s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/ament_index/resource_index/parent_prefix_path/package1
+[3.457s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/environment/ament_prefix_path.sh
+[3.502s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/environment/ament_prefix_path.dsv
+[3.540s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/environment/path.sh
+[3.581s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/environment/path.dsv
+[3.619s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/local_setup.bash
+[3.645s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/local_setup.sh
+[3.696s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/local_setup.zsh
+[3.736s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/local_setup.dsv
+[3.772s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/package.dsv
+[3.794s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/ament_index/resource_index/packages/package1
+[3.828s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/cmake/package1Config.cmake
+[3.849s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/cmake/package1Config-version.cmake
+[3.886s] -- Symlinking: /home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/package.xml
+[3.913s] Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1
