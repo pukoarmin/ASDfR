@@ -23,6 +23,7 @@ src/cv_mat_sensor_msgs_image_type_adapter.cpp
 src/show_image.cpp
 src/darkness_dustiness.cpp
 src/sylphina_dustiness.cpp
+src/light_tracker.cpp
 )
 
 target_compile_definitions(${PROJECT_NAME}
@@ -40,6 +41,7 @@ rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::Cam2Image" 
 rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::ShowImage" EXECUTABLE showimage)
 rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::DarknessDustiness" EXECUTABLE isdark)
 rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::SylphinaDustiness" EXECUTABLE isdarkparams)
+rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::LightTracker" EXECUTABLE lightracker)
 
 install(
 TARGETS ${PROJECT_NAME} EXPORT ${PROJECT_NAME}

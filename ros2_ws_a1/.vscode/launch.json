@@ -39,6 +39,18 @@
                 "gzserver"
             ],
             "type": "ros"
+        },
+        {
+            "name": "ROS: Launch 1.1.4",
+            "request": "launch",
+            "target": "/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/launch/assignment114.launch.py",
+            "launch": [
+                "rviz",
+                "gz",
+                "gzclient",
+                "gzserver"
+            ],
+            "type": "ros"
         }
     ]
 }
