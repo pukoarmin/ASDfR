@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Workspace Builds and Installs
+/ros2_ws_a1/build/*
+/ros2_ws_a1/install/*
+/ros2_ws_a1/log/*
