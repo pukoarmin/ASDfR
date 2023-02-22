@@ -21,7 +21,9 @@ src/burger.cpp
 src/cam2image.cpp
 src/cv_mat_sensor_msgs_image_type_adapter.cpp
 src/show_image.cpp
+src/darkness_dustiness.cpp
 )
+
 target_compile_definitions(${PROJECT_NAME}
 PRIVATE "IMAGE_TOOLS_BUILDING_DLL")
 target_include_directories(${PROJECT_NAME} PUBLIC
@@ -35,6 +37,7 @@ rclcpp_components::component
 ${OpenCV_LIBS})
 rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::Cam2Image" EXECUTABLE cam2image)
 rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::ShowImage" EXECUTABLE showimage)
+rclcpp_components_register_node(${PROJECT_NAME} PLUGIN "image_tools::DarknessDustiness" EXECUTABLE isdark)
 
 install(
 TARGETS ${PROJECT_NAME} EXPORT ${PROJECT_NAME}

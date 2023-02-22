@@ -23,12 +23,12 @@ RCLCPP_USING_CUSTOM_TYPE_AS_ROS_MESSAGE_TYPE(
 
 namespace image_tools
 {
-class ShowImage : public rclcpp::Node
+class DarknessDustiness : public rclcpp::Node
 {
 public:
   IMAGE_TOOLS_PUBLIC
-  explicit ShowImage(const rclcpp::NodeOptions & options)
-  : Node("showimage", options)
+  explicit DarknessDustiness(const rclcpp::NodeOptions & options)
+  : Node("isdark", options)
   {
     setvbuf(stdout, NULL, _IONBF, BUFSIZ);
     // Do not execute if a --help option was provided
@@ -83,9 +83,9 @@ private:
       std::find(args.begin(), args.end(), "-h") != args.end())
     {
       std::stringstream ss;
-      ss << "Usage: showimage [-h] [--ros-args [-p param:=value] ...]" << std::endl;
-      ss << "Subscribe to an image topic and show the images." << std::endl;
-      ss << "Example: ros2 run image_tools showimage --ros-args -p reliability:=best_effort";
+      ss << "Usage: isdark [-h] [--ros-args [-p param:=value] ...]" << std::endl;
+      ss << "Subscribe to an image topic and decide if the image is bright or not." << std::endl;
+      ss << "Example: ros2 run image_tools isdark --ros-args -p reliability:=best_effort";
       ss << std::endl << std::endl;
       ss << "Options:" << std::endl;
       ss << "  -h, --help\tDisplay this help message and exit";
@@ -162,20 +162,34 @@ private:
     RCLCPP_INFO(logger, "Received image #%s", container.header().frame_id.c_str());
     std::cerr << "Received image #" << container.header().frame_id.c_str() << std::endl;
 
+    cv::Mat frame = container.cv_mat();
+
+    if (frame.type() == CV_8UC3 /* rgb8 */) {
+      cv::cvtColor(frame, frame, cv::COLOR_RGB2GRAY);
+    } else if (frame.type() == CV_8UC2) {
+      container.is_bigendian() ? cv::cvtColor(frame, frame, cv::COLOR_YUV2GRAY_UYVY) :
+      cv::cvtColor(frame, frame, cv::COLOR_YUV2GRAY_YUYV);
+    }
+
     if (show_image) {
-      cv::Mat frame = container.cv_mat();
-
-      /*if (frame.type() == CV_8UC3 /* rgb8 *//*) {
-        cv::cvtColor(frame, frame, cv::COLOR_RGB2BGR);
-      } else if (frame.type() == CV_8UC2) {
-        container.is_bigendian() ? cv::cvtColor(frame, frame, cv::COLOR_YUV2BGR_UYVY) :
-        cv::cvtColor(frame, frame, cv::COLOR_YUV2BGR_YUYV);
-      }*/
-
       // Show the image in a window
       cv::imshow(window_name_, frame);
       // Draw the screen and wait for 1 millisecond.
       cv::waitKey(1);
+    }
+
+    int medium_brightness = 0;
+
+    for (int i = 0; i < frame.rows; i++) {
+      for (int j = 0; j < frame.cols; j++){ 
+        medium_brightness += frame.at<uchar>(i, j);
+      }
+    }
+    medium_brightness = medium_brightness / (frame.rows * frame.cols);
+    if (medium_brightness < 50){
+      std::cerr << "It is dark"<< std::endl;
+    } else {
+      std::cerr << "It is light"<< std::endl;
     }
   }
 
@@ -190,4 +204,4 @@ private:
 
 }  // namespace image_tools
 
-RCLCPP_COMPONENTS_REGISTER_NODE(image_tools::ShowImage)
+RCLCPP_COMPONENTS_REGISTER_NODE(image_tools::DarknessDustiness)

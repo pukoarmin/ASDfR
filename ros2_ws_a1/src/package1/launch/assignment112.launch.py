@@ -10,5 +10,9 @@ def generate_launch_description():
         Node(
             package='package1',
             executable='showimage',
+        ),
+        Node(
+            package='package1',
+            executable='isdark'
         )
     ])
