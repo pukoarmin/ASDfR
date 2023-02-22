@@ -1,7 +1,0 @@
-[0.060s] Invoking command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1
-[0.091s] [31mCMake Error at CMakeLists.txt:35:
-[0.091s]   Parse error.  Expected a command name, got unquoted argument with text "!".
-[0.091s] 
-[0.091s] [0m
-[0.091s] -- Configuring incomplete, errors occurred!
-[0.104s] Invoked command in '/home/ram-user/Documents/ASDfR/ros2_ws_a1/build/package1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1

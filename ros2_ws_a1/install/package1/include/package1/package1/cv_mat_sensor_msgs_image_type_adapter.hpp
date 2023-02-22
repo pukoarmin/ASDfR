@@ -1,1 +1,0 @@
-/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include/package1/cv_mat_sensor_msgs_image_type_adapter.hpp

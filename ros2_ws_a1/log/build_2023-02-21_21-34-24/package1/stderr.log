@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:9 (ffind_package):
-  Unknown CMake command "ffind_package".
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

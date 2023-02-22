@@ -1,9 +1,0 @@
-In file included from [01m[K/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/src/cam2image.cpp:18[m[K:
-[01m[K/home/ram-user/Documents/ASDfR/ros2_ws_a1/src/package1/include/package1/cv_mat_sensor_msgs_image_type_adapter.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kimage_tools/visibility_control.h: No such file or directory
-   13 | #include [01;31m[K"image_tools/visibility_control.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/package1.dir/build.make:90: CMakeFiles/package1.dir/src/cam2image.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/package1.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

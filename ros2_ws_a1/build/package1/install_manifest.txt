@@ -1,3 +1,0 @@
-/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/lib/libpackage1.so
-/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/cmake/package1Export.cmake
-/home/ram-user/Documents/ASDfR/ros2_ws_a1/install/package1/share/package1/cmake/package1Export-relwithdebinfo.cmake

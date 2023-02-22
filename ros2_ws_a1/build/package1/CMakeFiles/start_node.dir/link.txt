@@ -1,1 +1,0 @@
-/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/start_node.dir/src/start_node.cpp.o -o start_node 
