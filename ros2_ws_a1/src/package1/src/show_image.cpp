@@ -165,7 +165,7 @@ private:
     if (show_image) {
       cv::Mat frame = container.cv_mat();
 
-      /*if (frame.type() == CV_8UC3 /* rgb8 *//*) {
+      /*if (frame.type() == CV_8UC3) {
         cv::cvtColor(frame, frame, cv::COLOR_RGB2BGR);
       } else if (frame.type() == CV_8UC2) {
         container.is_bigendian() ? cv::cvtColor(frame, frame, cv::COLOR_YUV2BGR_UYVY) :
