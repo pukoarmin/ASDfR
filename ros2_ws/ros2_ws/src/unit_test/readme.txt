@@ -19,10 +19,3 @@ cd ros2_ws
 rqt 
 From the drop down menu, select Plugins-> Visulization -> Image View (sometimes you need to refresh and then select the topic)
 
-
-Show that the system works as regularly written as part of an assignment
-task, means that you design, run, and report on some tests to make clear that the system
-does what you specify it should do.
-
-When the light is moved to all corners, it can be seen that the light cog is correctly mapped to the min and max values of span and tilt angles.
-This indicates that the setpoint is correctly computed.
