@@ -4,14 +4,17 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/xenomai/include/trank/",
-                "/usr/xenomai/include/alchemy/"
+                "/usr/xenomai/include/trank/native",
+                "/usr/xenomai/include/alchemy",
+                "/usr/xenomai/include/trank",
+                "/usr/xenomai/include",
+                "/usr/xenomai/include/cobalt"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "gnu99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm"
         }
     ],
     "version": 4

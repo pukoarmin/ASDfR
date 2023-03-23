@@ -6,15 +6,20 @@
 #include <native/timer.h>
 
 #define PERIOD_NS 1000000000 // 1 second
+#define ITER 100
 
 RT_TASK my_task;
 
 void task_function(void *arg)
 {
     int count = 0;
-    while(1)
-    {
-        printf("Task count: %d\n", count++);
+    float computation_load;
+    for (int i = 0; i < ITER; i++) { 
+        // Wait deadline.tv_nsec relative to the monotonic clock 
+        for (int j = 0; j < 1e6; j++) {
+            computation_load += j * i / sqrt(2);
+        }
+        printf("Task iter: %d\n", count++);
         rt_task_wait_period(NULL);
     }
 }
