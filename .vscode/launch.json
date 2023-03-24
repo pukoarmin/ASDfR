@@ -11,7 +11,7 @@
         "cwd": "${fileDirname}",
         "environment": [],
         "externalConsole": false,
-        "MIMode": "gdb-sudo",
+        "MIMode": "gdb",
         "setupCommands": [
             {
                 "description": "Enable pretty-printing for gdb",

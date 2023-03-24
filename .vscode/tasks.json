@@ -10,7 +10,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "$(/usr/xenomai/bin/xeno-config","--skin=posix","--cflags","--ldflags)"
+                "$(/usr/xenomai/bin/xeno-config","--skin=alchemy","--cflags","--ldflags)"
             ],
             "options": {
                 "cwd": "${fileDirname}"

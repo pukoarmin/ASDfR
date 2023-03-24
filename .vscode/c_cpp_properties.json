@@ -3,12 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/xenomai/include/trank/native",
-                "/usr/xenomai/include/alchemy",
-                "/usr/xenomai/include/trank",
-                "/usr/xenomai/include",
-                "/usr/xenomai/include/cobalt"
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
