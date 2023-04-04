@@ -32,6 +32,6 @@
 *.app
 
 # Workspace Builds and Installs
-/ros2_ws_a1/build/*
-/ros2_ws_a1/install/*
-/ros2_ws_a1/log/*
+/integration/ros2_ws/build/*
+/integration/ros2_ws/install/*
+/integration/ros2_ws/log/*

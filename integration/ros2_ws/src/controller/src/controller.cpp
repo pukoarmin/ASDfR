@@ -103,7 +103,7 @@ class ClosedLoopController : public rclcpp::Node
     {
       // Create listener to COG channel
       cog_topic_ = this->create_subscription<asdfr_interfaces::msg::Point2>(
-        "cog_input", 1 , std::bind(&ClosedLoopController::cog_input, this, _1));
+        "cog_pos", 1 , std::bind(&ClosedLoopController::cog_input, this, _1));
 
       // Create publisher for Setpoint channel.
       setpoint_topic_ = this->create_publisher<asdfr_interfaces::msg::Point2>("setpoint_output", 1);
